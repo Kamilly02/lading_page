@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Geral */
+body {
+    font-family:"Bebas Neue", sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #3b2714;
+    color: #fac127;
+    padding: 10px 0;
+  }
+  .titulo {
+    display: flex;
+    justify-content: center;
+  }
+  .signup-button, .login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px; 
+    border-radius: 5px;
+    text-decoration: none;
+    color: #080808;
+    background-color: rgb(255, 215, 172);
+  }
+  .signup-button:hover, .login-button:hover {
+    background-color: rgb(5, 0, 100);
+    color: #000;
+  }
+  header nav ul {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 2px;
+    list-style-type: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  li a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: rgb(250, 139, 42);
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Seção Hero */
+  .hero {
+    background: url('../img/hero-bg.jpg') no-repeat center center/cover;
+    color: #0f0f0f;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .hero .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .hero h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .cta-button {
+    background-color: rgb(250, 139, 42);
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .cta-button:hover {
+    background-color: #FF4500;
+  }
+  
+  /* Seção de Recursos */
+  .digicove-features {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+  }
+  .lente {
+    background: rgb(243, 216, 166);
+    padding: 20px;
+    border-radius: 500px;
+  }
+  .digicove-features .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .digicove-features h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .digicove-features p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Seção de Imagens */
+  .img {
+    display:block;
+    height: auto;
+    width:auto ;
+  
+  }
+  .img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 10px;
+    height: 500px;
+    width: 500px;
+  }
+  
+  /* Seção de Descrição do Produto */
+  .product-description {
+    background-color: #fff;
+    padding: 50px 20px;
+  }
+  .product-description .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  .product-description h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  .product-description ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .product-description li {
+    font-size: 20px;
+    flex-basis: 20%;
+  }
+  .product-description p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+
+  }
+  .product-description .cta-button {
+    background-color: #FF4500;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .product-description .cta-button:hover {
+    background-color: #f57e0e;
+  }
+  
+  /* Seção de Formulário de Contato */
+  .contact-form {
+    background-color: #ffeacc;
+    padding: 50px 20px;
+  }
+  .contact-form .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .contact-form h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .contact-form label {
+    font-size: 18px;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid  #FF4500;
+    border-radius: 5px;
+  }
+  .contact-form button {
+    background-color: #FF4500;
+    color:#fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    align-self: center;
+  }
+  .contact-form button:hover {
+    background-color: #FF4500;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #3b2714;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  footer p {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .hero h2 {
+        font-size: 36px;
+    }
+    .hero p {
+        font-size: 18px;
+    }
+    .product-description ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-description li {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+  }
+  
